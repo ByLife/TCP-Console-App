@@ -1,5 +1,16 @@
 {
     "application" : {
+        "login": {
+            "enabled": true
+        }
+    },
+    "config": {
+        "credentials": {
+            "default_login": "root",
+            "default_password" : ""
+        }
+    },
+    "details": {
         "version": "0.1.0",
         "author": "ByLife",
         "description" : "A simple life management application easy to setup and use."

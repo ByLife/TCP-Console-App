@@ -13,10 +13,10 @@ module.exports = (socket) => {
         height: 10,
         whitespaceBreak: false
     }).replace(/\n/g, "\r\n")) + 
-    Logger.space() + chalk.yellow(`Made by ${config.application.author}`) +
-    Logger.space() + chalk.yellow(`Version ${config.application.version}`) +
+    Logger.space() + chalk.yellow(`Made by ${config.details.author}`) +
+    Logger.space() + chalk.yellow(`Version ${config.details.version}`) +
     Logger.mediumSpace() + chalk.yellow(`Type 'help' for a list of commands`) +
-    Logger.mediumSpace() + chalk.red("Redirecting to login") +
+    Logger.mediumSpace() + chalk.red("Redirecting...") +
     setTimeout(() => {}, 1000)
 
 }
