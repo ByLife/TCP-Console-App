@@ -35,7 +35,7 @@ To use it, you can configure the config.json file with the information of your s
 
 To run the bot you will need to run the following command in your terminal:
 
-```python bot.py```
+```node index.js```
 
 ## Contributing
 
